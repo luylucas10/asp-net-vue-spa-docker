@@ -3,16 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDocker", "src\WebDocker\WebDocker.csproj", "{18B380A3-E457-4FE0-A3E5-3FA058617BCD}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSpaProxy", "src\WebSpaProxy\WebSpaProxy.csproj", "{825C8CF5-1340-43DE-BAA3-C1B2408A6FFF}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueapp", "src\AspNetVue\vueapp\vueapp.esproj", "{30730D8F-FD3F-479C-8B50-246C3D74598A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webapi", "src\AspNetVue\webapi\webapi.csproj", "{C17F415B-D079-438B-9157-E0FA3D61B01D}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "vueproject1", "src\vueproject1\vueproject1.esproj", "{0A1D2982-435D-4354-9E15-090D157A94AD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetDockerVue", "src\AspNetDockerVue\AspNetDockerVue.csproj", "{299C108E-4E79-4E5F-9B45-4157DB410335}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebIdentity", "src\WebIdentity\WebIdentity.csproj", "{6E0CE8D9-FAEA-4463-960B-9BD5531D55ED}"
@@ -25,30 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{18B380A3-E457-4FE0-A3E5-3FA058617BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{18B380A3-E457-4FE0-A3E5-3FA058617BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{18B380A3-E457-4FE0-A3E5-3FA058617BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{18B380A3-E457-4FE0-A3E5-3FA058617BCD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{825C8CF5-1340-43DE-BAA3-C1B2408A6FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{825C8CF5-1340-43DE-BAA3-C1B2408A6FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{825C8CF5-1340-43DE-BAA3-C1B2408A6FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{825C8CF5-1340-43DE-BAA3-C1B2408A6FFF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{30730D8F-FD3F-479C-8B50-246C3D74598A}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{C17F415B-D079-438B-9157-E0FA3D61B01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C17F415B-D079-438B-9157-E0FA3D61B01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C17F415B-D079-438B-9157-E0FA3D61B01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C17F415B-D079-438B-9157-E0FA3D61B01D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0A1D2982-435D-4354-9E15-090D157A94AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{299C108E-4E79-4E5F-9B45-4157DB410335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{299C108E-4E79-4E5F-9B45-4157DB410335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{299C108E-4E79-4E5F-9B45-4157DB410335}.Release|Any CPU.ActiveCfg = Release|Any CPU
