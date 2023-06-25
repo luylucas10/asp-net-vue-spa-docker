@@ -23,8 +23,8 @@ module.exports = defineConfig({
 			cert: fs.readFileSync(certFilePath),
 		},
 		proxy: {
-			'^/weatherforecast': {
-				target: 'https://localhost:7064/'
+			'^/api': {
+				target: 'https://localhost:7092'
 			}
 		},
 		port: 5002
