@@ -11,15 +11,17 @@ namespace AspNetDockerVue
 
 			var app = builder.Build();
 
-			if (app.Environment.IsDevelopment())
+			if (app.Environment.IsEnvironment("DEBUG") || app.Environment.IsEnvironment("DEVELOPMENT"))
 			{
 				app.UseSwagger();
 				app.UseSwaggerUI();
 			}
 
 			app.UseHttpsRedirection();
+			app.UseStaticFiles();
 			app.UseAuthorization();
 			app.MapControllers();
+			app.MapFallbackToFile("index.html");
 			app.Run();
 		}
 	}
